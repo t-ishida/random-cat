@@ -18,7 +18,7 @@ const IndexPage: NextPage<Props> = ({ initialImageUrl }) => {
                         setImageUrl(image.url);
                         setLoading(false);
                     });
-                }}>チェンジ</button>
+                }}>one more cat</button>
                 <div className={styles.frame}>
                     {loading || <img src={imageUrl} alt="Random cat" /> }
                 </div>
